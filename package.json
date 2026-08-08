@@ -1,0 +1,17 @@
+{
+  "name": "procedure-ambient-bridge",
+  "version": "1.0.0",
+  "main": "src/screen/index.js",
+  "type": "module",
+  "scripts": {
+    "gen:procedure": "node scripts/generate-procedure-dts.js",
+    "watch:procedure": "chokidar \"src/procedures/**/*.js\" -c \"npm run gen:procedure\" --initial",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0"
+  }
+}

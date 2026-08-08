@@ -1,0 +1,7 @@
+# 依存関係
+node_modules/
+
+# エディタ・OS固有の設定
+.DS_Store
+.vscode/
+.idea/
