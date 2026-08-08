@@ -1,7 +1,9 @@
 {
   "name": "procedure-ambient-bridge",
   "version": "1.0.0",
-  "main": "src/screen/index.js",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "type": "module",
   "scripts": {
     "gen:procedure": "node scripts/generate-procedure-dts.js",
